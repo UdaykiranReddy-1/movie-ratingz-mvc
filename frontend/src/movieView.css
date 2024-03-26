@@ -1,0 +1,77 @@
+/* movieView.css */
+
+.movie-view-container {
+    width: 800px;
+    margin: 2rem auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .cont{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .movie-view-container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .textarea{
+    width: 350px;
+    height: 70px;
+  }
+  
+  .head {
+    color: #333;
+    text-align: center;
+  }
+  
+  .movie-details {
+    margin-top: 20rem;
+  }
+  
+  .movie-details h2 {
+    color: #333;
+  }
+  
+  .movie-details p {
+    color: #666;
+  }
+  
+  .rating-review-container {
+    margin-top: 20px;
+  }
+  
+  .rating-review-container input[type="number"],
+  .rating-review-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .rating-review-container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .rating-review-container button:hover {
+    background-color: #0056b3;
+  }
+  
